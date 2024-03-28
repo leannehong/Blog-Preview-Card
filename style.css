@@ -1,7 +1,76 @@
+:root{
+    /* ### Primary-color */
+  
+  --Yellow: hsl(47, 88%, 63%);
+  
+  /* ### Neutral-color */
+  
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+}
+
 .attribution { 
     font-size: 11px; text-align: center; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+body {
+    background-color: var(--Yellow);
+}
+
+main {
+    background-color: var(--White);
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 1.2em;
+    border: 1px solid var(--Black);
+    border-radius: 15px;
+    box-shadow: 6px 6px  var(--Black);
+}
+
+/* .card {
+    background-color: var(--White);
+    width: 383px;
+    height: 519px;
+    margin: auto;
+
+    border-radius: 15px;
+    border: 1px solid hsl(0, 0%, 7%);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+.card img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.small-box {
+    /* width: 84px;
+    height: 30px;
+    border-radius: 5px;
+    background: hsl(47, 88%, 63%);
+    text-align: center;
+    font-weight: 400;
+    padding: 0.8rem 1.6rem;
+    font-size: 1.3rem; */
+
+    background-color: var(--Yellow);
+    padding: 0.8rem 1.6rem;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: var(--font-weight-extra-bold);
+    
+    display: inline-block;
+
+
+
 }
 
