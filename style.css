@@ -10,8 +10,12 @@
   --Black: hsl(0, 0%, 7%);
 }
 
+* {
+    font-family: 'Figtree';
+}
+
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 15px; text-align: center; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
@@ -19,6 +23,11 @@
 
 body {
     background-color: var(--Yellow);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
 }
 
 main {
@@ -32,45 +41,79 @@ main {
     box-shadow: 6px 6px  var(--Black);
 }
 
-/* .card {
-    background-color: var(--White);
-    width: 383px;
-    height: 519px;
-    margin: auto;
 
-    border-radius: 15px;
-    border: 1px solid hsl(0, 0%, 7%);
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-} */
-
-.card img{
+.main_image {
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin: 10px 15px 10px 3px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .small-box {
-    /* width: 84px;
-    height: 30px;
-    border-radius: 5px;
-    background: hsl(47, 88%, 63%);
-    text-align: center;
-    font-weight: 400;
-    padding: 0.8rem 1.6rem;
-    font-size: 1.3rem; */
-
     background-color: var(--Yellow);
-    padding: 0.8rem 1.6rem;
+    padding: 10px 15px;
     border-radius: 0.5rem;
     font-size: 1.3rem;
-    font-weight: var(--font-weight-extra-bold);
+    font-weight: 800;
     
     display: inline-block;
 
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    font-weight: 800;
+}
+
+.author img {
+    width: 32px;
+    height: 32px;
+
+    display:block;
+
+    margin-right: 12px;
+
+}
+
+.content {
+    text-align: left;
+    display: grid;
+    padding-top: 10px;
+}
+
+h1 {
+    font-weight: 500;
+    margin: 0;
+    font-size: 14px;
+}
+
+p {
+    margin: 0px 0px 20px;
+    color: var(--Grey);
+}
+
+footer {
+    margin: 15px;
+}
 
 
+ h2 a:link {
+    color: var(--Black);
+    background-color: transparent;
+    text-decoration: none;
+
+    margin: 0;
+    font-weight: 800;
+}
+
+a:visited, a:active {
+    color: var(--Yellow);
 }
 
