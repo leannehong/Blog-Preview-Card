@@ -104,7 +104,7 @@ footer {
 }
 
 
- h2 a:link {
+ h2 a:link, a:visited {
     color: var(--Black);
     background-color: transparent;
     text-decoration: none;
@@ -113,7 +113,7 @@ footer {
     font-weight: 800;
 }
 
-a:visited, a:active {
+a:active, a:hover {
     color: var(--Yellow);
 }
 
