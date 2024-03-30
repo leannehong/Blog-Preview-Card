@@ -32,8 +32,8 @@ When the link is hover or active
 
 ### Links
 add soon
-- Solution URL: [Add solution URL here](https://github.com/leannehong/Blog-Preview-Card)
-- Live Site URL: [Add live site URL here](https://leannehong.github.io/Blog-Preview-Card/)
+- Solution URL: [Solution URL](https://github.com/leannehong/Blog-Preview-Card)
+- Live Site URL: [Live Site URL](https://leannehong.github.io/Blog-Preview-Card/)
 
 ## My process
 
